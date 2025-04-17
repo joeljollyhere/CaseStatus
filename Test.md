@@ -2,6 +2,7 @@
 * Receipt Number used for this test: `EAC9999103412`
 
 * Input
+
 ![image](https://github.com/user-attachments/assets/f0298069-986c-45e6-af2e-b01425981055)
 * Output
 ![image](https://github.com/user-attachments/assets/0129efea-fe72-4e4f-bb90-739a6992d86a)
