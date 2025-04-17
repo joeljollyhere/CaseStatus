@@ -12,11 +12,11 @@
 * An internal API call is being made to `/users/{userId}/applications/{applicationId}/case-status` (`CaseStatusRestController.kt`)
 * If the `caseId == null`
     * Then makes this api call `/casestatus/api/v1/case/status/{applicationId}`
-    * (From here on, Its been handled by `standalone-casestatus`.
+    * (From here on, Its been handled by `standalone-casestatus`.)
     * Then `checkStatus` (https://su2q4etor7.execute-api.us-west-2.amazonaws.com/prod/Case-Status-2024?receipt_number=%s)
 * else
     * Then makes this api call `/casestatus/api/v1/case/update`
-    * (From here on, Its been handled by `standalone-casestatus`.
+    * (From here on, Its been handled by `standalone-casestatus`.)
     * First, We call `getOrCreateCase()` this creates a new instances.
     * Then `checkStatus` (https://su2q4etor7.execute-api.us-west-2.amazonaws.com/prod/Case-Status-2024?receipt_number=%s)
 
@@ -29,7 +29,7 @@
 
 # Backend
 * Once the user clicks on the button.
-* (From here on, It's been handled by `common-static`.
+* (From here on, It's been handled by `common-static`.)
 * Then it calls this api `https://su2q4etor7.execute-api.us-west-2.amazonaws.com/prod/Case-Status-2024?receipt_number=`
 
 ## How it is stored in the db?
