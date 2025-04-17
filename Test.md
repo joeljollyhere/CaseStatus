@@ -1,4 +1,5 @@
 # Test
+* This test is conducted from the application center.
 * Receipt Number used for this test: `EAC9999103412`
 
 * Input
@@ -21,3 +22,8 @@
 * 2nd attempt
 * (Do note everytime the user does this via the application center's casestatus retrieval method a new entry appends to the user)
 ![image](https://github.com/user-attachments/assets/891ae66a-0dc9-4ba8-8669-ed3bed2efc8a)
+
+
+# Note:
+* Even though we are appending in the `case_status_log_t` for all requests made from the application center, Still it does not append from the db to the history of application status.
+![image](https://github.com/user-attachments/assets/1aafa89b-7597-4a7d-9097-3ee316399777)
