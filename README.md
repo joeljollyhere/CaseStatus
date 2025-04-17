@@ -29,6 +29,7 @@
 
 # Backend
 * Once the user clicks on the button.
+* (From here on, It's been handled by `common-static`.
 * Then it calls this api `https://su2q4etor7.execute-api.us-west-2.amazonaws.com/prod/Case-Status-2024?receipt_number=`
 
 ## How it is stored in the db?
