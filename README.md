@@ -42,23 +42,3 @@
 * `case_status_log_t`
 ![image](https://github.com/user-attachments/assets/3d6f999a-f33b-480c-87b9-1f3bfbce1337)
 ![image](https://github.com/user-attachments/assets/b59c9e37-8adb-4bbe-857a-482bcf66ab43)
-
-
-word checker
-more memory context
-Refactor variable names
-More models
-Voice only mode
-Return entire array if needed
-Attach documents
-
-
-Research
-
-Finite State Machines (FSM): maintains context by moving through states.
-
-Trie-based matching: for fast keyword lookup.
-
-TF-IDF (classic vector-based search): find best-matching known inputs by scoring commonality.
-
-
